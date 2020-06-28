@@ -7,9 +7,9 @@
     color: white
 }
 
-#header button{
+/* #header button{
 
-}
+} */
 
 #home .overlay img {
     position: absolute;
@@ -19,11 +19,6 @@
     object-fit: cover;
     filter: grayscale(20%);
     opacity: 90%;
-}
-
-#home .overlay a, button {
-    position: absolute;
-    top: 60vh;
 }
 
 #home .carousel-inner h3 {
@@ -37,6 +32,12 @@
 
 #carousel {
     position: relative;
+}
+
+#home a {
+    position: absolute;
+    margin-top: 400px;
+    width: 180px;
 }
 
 #footer{
