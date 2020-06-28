@@ -1,10 +1,20 @@
 #header{
     background: #EE7315;
-    color: white
+    color: white;
+}
+
+.btn-personalizado{
+    background-color: #01549B;
+    color: white;
+}
+
+.btn-personalizado:hover{
+    background-color: #04467F;
+    color: white;
 }
 
 #header a{
-    color: white
+    color: white;
 }
 
 /* #header button{
@@ -42,5 +52,5 @@
 
 #footer{
     background: #5A5A5A;
-    color: white
+    color: white;
 }
