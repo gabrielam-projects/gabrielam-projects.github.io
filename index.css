@@ -26,10 +26,6 @@
     font-size: 22px;
 }
 
-/* #header button{
-
-} */
-
 #home .overlay img {
     position: absolute;
     max-height: 100vh;
@@ -40,9 +36,10 @@
     opacity: 90%;
 }
 
-#home .carousel-inner h3 {
+#home .carousel-inner .container h3 {
+    position: relative;
     color:rgb(116, 127, 143);
-    min-height: 85vh;
+    height: 80vh;
 }
 
 #home .carousel-item {
@@ -56,11 +53,64 @@
 #home a {
     position: absolute;
     margin-top: 400px;
-    width: 180px;
+    width: 190px;
+}
+
+#projects .container-fluid {
+    background-color: #3D4049;
+    min-height: 950px;
+}
+
+#projects .container-fluid .cover-phrase {
+    position: absolute;
+    object-fit: cover;
+    opacity: 20%;
+}
+
+#projects .container-fluid h2 {
+    position: absolute;
+    color: white;
+    margin-top: 100px;
+}
+
+#projects .container-carousel {
+    margin-top: 300px;
+}
+
+#projects .container-carousel img {
+    opacity: 80%;
+}
+
+#team .container-fluid {
+    position: relative;
+    display: inline-block;
+    text-align: center;
 }
 
 #central-image {
     object-fit: cover;
+}
+
+#team .container-fluid .cover-phrase {
+    max-height: 180px;
+    width: 100vw;
+    object-fit: cover;
+    filter: grayscale(30%);
+}
+
+#team .container-fluid .text-cover {
+    position: absolute;
+    color: white;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.quote {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 #footer {
