@@ -1,12 +1,3 @@
-#header {
-    background-color: #EE7315;
-}
-
-#header a {
-    color: white
-}
-
-
 .btn-menu {
     color: white;
     font-size: 25px;
@@ -21,15 +12,6 @@
     background-color: #04467F;
     color: white;
 }
-
-#navbarNav a {
-    color: rgb(229, 226, 226);
-}
-
-#header a:hover {
-    color: white;
-}
-
 
 #brand {
     font-size: 22px;
