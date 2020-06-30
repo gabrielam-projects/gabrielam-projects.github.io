@@ -13,6 +13,10 @@
     color: white;
 }
 
+#header {
+    background-color: #EE7315;
+}
+
 #brand {
     font-size: 22px;
 }
