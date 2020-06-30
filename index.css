@@ -112,3 +112,17 @@
     background: #5A5A5A;
     color: white;
 }
+
+
+.fadeIn {
+    animation: 1000ms fadeIn;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
