@@ -1,8 +1,3 @@
-.btn-menu {
-    color: white;
-    font-size: 25px;
-}
-
 .btn-personalizado {
     background-color: #01549B;
     color: white;
@@ -58,6 +53,7 @@
 
 #projects .container-fluid .cover-phrase {
     position: absolute;
+    max-width: 100%;
     object-fit: cover;
     opacity: 20%;
 }
