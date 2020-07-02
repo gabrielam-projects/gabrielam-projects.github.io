@@ -108,6 +108,10 @@
     height: 60px;
 }
 
+.jumbotron p {
+    text-align: justify;
+}
+
 #footer {
     background: #5A5A5A;
     color: white;
