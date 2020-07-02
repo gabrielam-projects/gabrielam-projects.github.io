@@ -8,6 +8,12 @@
     color: white;
 }
 
+#team:before, #about::before {
+    height: 80px;
+    content: "";
+    display:block;
+}
+
 #header {
     background-color: #EE7315;
 }
@@ -15,6 +21,10 @@
 #brand {
     font-size: 22px;
 }
+
+/* #navbar {
+    height: 100px;
+  } */
 
 #home .overlay img {
     position: absolute;
