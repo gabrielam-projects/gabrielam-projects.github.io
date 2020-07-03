@@ -61,11 +61,11 @@
     min-height: 950px;
 }
 
-#projects .container-fluid .cover-phrase {
+#projects .background-projects {
     position: absolute;
     max-width: 100%;
     object-fit: cover;
-    opacity: 20%;
+    opacity: 40%;
 }
 
 #projects .container-fluid h2 {
@@ -79,7 +79,16 @@
 }
 
 #projects .container-carousel img {
-    opacity: 80%;
+    width: 910px;
+    height: 398px;
+}
+
+#projects .container-carousel h5 {
+    color: #3D4049;
+    background-color: #c5c6c7;
+    width: 100%;
+    padding: 10px;
+    opacity: 70%;
 }
 
 #team .container-fluid {
@@ -96,13 +105,13 @@
     max-height: 180px;
     width: 100vw;
     object-fit: cover;
-    filter: grayscale(30%);
+    filter: grayscale(20%);
 }
 
 #team .container-fluid .text-cover {
     position: absolute;
-    color: white;
-    top: 70%;
+    color: rgb(235, 232, 232);
+    top: 75%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
