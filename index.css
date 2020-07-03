@@ -68,14 +68,29 @@
     opacity: 40%;
 }
 
-#projects .container-fluid h2 {
-    position: absolute;
-    color: white;
+.seccion {
+    width: 180px;
+    height: 10px;
+    background-color: #E55119;
+    margin:0px auto;
+    margin-top: 40px;
+    border-radius: 20px;
+}
+
+#projects .seccion {
+    margin:0px auto;
     margin-top: 100px;
 }
 
+#projects .container-fluid h2 {
+    position: absolute;
+    color: white;
+    margin-top: 90px;
+    padding-top: 30px;
+}
+
 #projects .container-carousel {
-    margin-top: 300px;
+    margin-top: 150px;
 }
 
 #projects .container-carousel img {
