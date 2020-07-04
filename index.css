@@ -29,14 +29,6 @@
     font-size: 22px;
 }
 
-/* #navbar {
-    height: 100px;
-  } */
-
-/* #home {
-
-} */
-
 #home .overlay img {
     position: absolute;
     height: 100%;
@@ -122,16 +114,12 @@
     opacity: 70%;
 }
 
-#team .container {
-    
-}
-
 #central-image img {
     object-fit: cover;
     position: absolute;
     opacity: 20%;
-    margin:0px auto;
-    width: 100%;
+    margin: 0px auto;
+    max-width: 100%;
 }
 
 .card {
