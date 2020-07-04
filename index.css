@@ -39,7 +39,7 @@
 
 #home .overlay img {
     position: absolute;
-    max-height: 100%;
+    height: 100%;
     width: 100%;
     background-color: rgba(0,0,0,0.3);
     object-fit: cover;
@@ -56,12 +56,12 @@
     height: 80vh;
 }
 
-#home .carousel-item {
-    top: 25vh;
-}
-
 #carousel {
     position: relative;
+}
+
+#carousel .container h3{
+    top: 25%;
 }
 
 #home a {
