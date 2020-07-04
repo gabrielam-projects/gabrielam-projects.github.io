@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'Gabriola';
+    font-style: normal;
+    font-weight: normal;
+    src: url('fonts/gabriola_font.woff') format('woff');
+}
+
 .btn-personalizado {
     background-color: #01549B;
     color: white;
@@ -26,17 +33,24 @@
     height: 100px;
   } */
 
+/* #home {
+
+} */
+
 #home .overlay img {
     position: absolute;
-    max-height: 100vh;
-    width: 100vw;
+    max-height: 100%;
+    width: 100%;
     background-color: rgba(0,0,0,0.3);
     object-fit: cover;
     filter: grayscale(20%);
     opacity: 90%;
+    display: flex;
 }
 
 #home .carousel-inner .container h3 {
+    font-family: 'Gabriola';
+    font-size: 3rem;
     position: relative;
     color:rgb(116, 127, 143);
     height: 80vh;
@@ -52,20 +66,21 @@
 
 #home a {
     position: absolute;
-    margin-top: 400px;
+    margin-top: 450px;
     width: 190px;
 }
 
 #projects .container-fluid {
     background-color: #3D4049;
     min-height: 950px;
+    align-items: center;
+    justify-content: center;
 }
 
 #projects .background-projects {
     position: absolute;
     max-width: 100%;
-    object-fit: cover;
-    opacity: 40%;
+    opacity: 30%;
 }
 
 .seccion {
@@ -91,6 +106,7 @@
 
 #projects .container-carousel {
     margin-top: 150px;
+    display: flex;
 }
 
 #projects .container-carousel img {
@@ -106,13 +122,11 @@
     opacity: 70%;
 }
 
-#team .container-fluid {
-    position: relative;
-    display: inline-block;
-    text-align: center;
+#team .container {
+    
 }
 
-#central-image img{
+#central-image img {
     object-fit: cover;
     position: absolute;
     opacity: 20%;
@@ -123,6 +137,25 @@
 .card {
     padding: 0x auto;
     margin:0px auto;
+    transition: ease;
+    min-height: 80%;
+}
+
+.card img {
+    height: 100%;
+    width: 100%;
+}
+
+.card:hover {
+    border: 2px solid;
+    border-color: #04467F;
+    transform: scale(1.1);
+}
+
+#team .container-fluid {
+    position: relative;
+    display: inline-block;
+    text-align: center;
 }
 
 #team .container-fluid .cover-phrase {
@@ -138,6 +171,11 @@
     top: 75%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+#team .container-fluid h4 {
+    font-family: 'Gabriola';
+    font-size: 26pt;
 }
 
 .quote {
