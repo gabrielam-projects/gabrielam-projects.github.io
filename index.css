@@ -112,8 +112,17 @@
     text-align: center;
 }
 
-#central-image {
+#central-image img{
     object-fit: cover;
+    position: absolute;
+    opacity: 20%;
+    margin:0px auto;
+    width: 100%;
+}
+
+.card {
+    padding: 0x auto;
+    margin:0px auto;
 }
 
 #team .container-fluid .cover-phrase {
