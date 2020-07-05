@@ -52,7 +52,7 @@
     position: relative;
 }
 
-#carousel .container h3{
+#carousel .container h3 {
     top: 25%;
 }
 
@@ -181,6 +181,58 @@
     text-align: justify;
 }
 
+.job-skills {
+    top: 40px;
+}
+
+#circleBar-section { 
+    margin-top: 80px;
+    text-align: center;
+}
+
+.skills {
+    margin-top: 10px;
+    display: inline-block; 
+    padding: 1px 25px 0; 
+    border-radius: 5px;
+    /* background-color: whitesmoke; */
+    color: #FFAB00;
+}
+
+.heading { 
+    margin-bottom: 40px; 
+    display: inline-block; 
+}
+
+#circleBar-section .round { 
+    text-align: center;
+    justify-content: center;
+    min-height: 200px;
+    margin-top: 10px;
+    position: relative;
+}
+
+#circleBar-section .round strong { 
+    position: absolute;
+    top: 38%;
+    left: 52%;
+    margin-top: -50px;
+    transform: translate(-50%);
+    font-size: 25px;
+    color: #FFAB00;
+}
+
+#circleBar-section .progress-title { 
+    display: block;
+    color: #FFAB00;
+    font-size: 17px;
+    margin-top: 10px;
+}
+
+#circleBar-section button:hover {
+    color: white;
+}
+
 #footer {
     background: #5A5A5A;
     color: white;
@@ -213,4 +265,15 @@
     100% {
         opacity: 1;
     }
+}
+
+/* Estilos de blog */
+
+#about-blog {
+    background-color: white;
+}
+
+.container-fluid img {
+    max-width: 100%;
+    object-fit: cover;
 }

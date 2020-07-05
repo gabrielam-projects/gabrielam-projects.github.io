@@ -1,49 +1,52 @@
 <!doctype html>
-<html lang="en">
+<html lang="es">
   <head>
     <!-- Required meta tags -->
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Estilos CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
 
     <title>Gabriela Martínez</title>
+    <link rel="icon" type="image/png" href="">
   </head>
 
   <body data-spy="scroll" data-target="#navbar" data-offset="80" >
-
+<!-- Header -->
+    <header>
     <!-- Navbar -->
-    
-    <nav id="header" class="navbar navbar-expand-lg navbar-dark sticky-top">
-        <div class="container pt-2">
-            <a id="brand" class="navbar-brand text-uppercase" href="#home">Gabriela Martínez</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-            <div class="collapse navbar-collapse" id="navbar">
+        <nav id="header" class="navbar navbar-expand-lg navbar-dark sticky-top">
+            <div class="container pt-2">
+                <a id="brand" class="navbar-brand text-uppercase" href="#home">Gabriela Martínez</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbar">
 
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#projects">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-item nav-link" href="#team">Team</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-item nav-link" href="#about">About</a>
-                    </li>
-                </ul>
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#projects">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-item nav-link" href="#team">Team</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-item nav-link" href="#about">About</a>
+                        </li>
+                    </ul>
 
+                </div>
             </div>
-        </div>
-    </nav>
+        </nav>
+        <!-- /Navbar -->
+    </header>
+<!-- /Header -->
 
-    <!-- /Navbar -->
-
-    <!-- Home -->
+<!-- Home -->
 
     <section id=home>
         <div id="carousel" class="carousel slide" data-ride="carousel" data-pause="false" >
@@ -82,9 +85,9 @@
           </div>
     </section>
 
-    <!-- /Home -->
+<!-- /Home -->
 
-    <!-- Proyectos -->
+<!-- Proyectos -->
 
     <section id="projects" class="mt-0">
         <div class="container-fluid">
@@ -139,9 +142,9 @@
         </div>
     </section>
 
-    <!-- /Proyectos -->
+<!-- /Proyectos -->
 
-    <!-- Team -->
+<!-- Team -->
 
     <section id="team" class="mt-0">
         <div class="container">
@@ -244,9 +247,9 @@
         </div>
     </section>
 
-    <!-- /Team -->
+<!-- /Team -->
 
-    <!-- About -->
+<!-- About -->
 
     <section id="about" class="mt-0">
         <div class="container"> 
@@ -260,7 +263,9 @@
             <div class="row">
                 <img src="assets/images/Gabbs-moji.JPG" class="rounded-circle" alt="emoji" width="200" height="200"> 
             </div>
+        </div>
 
+        <div class="container">
             <div class="row">
                 <div class="col-6">
                     <div class="jumbotron pt-5 mt-0">
@@ -270,26 +275,66 @@
                         <p>⚠ Este sitio se encuentra en construcción como parte de un proyecto personal, 
                             en las próximas semanas comenzaré a subir contenido relacionado con mi trabajo profesional y mi filosofía de vida.</p>
                         <a class="btn btn-personalizado btn-lg" href="assets/pdf/Gabriela Martínez_CV20.pdf" download="GabrielaM-CV20" target="_blank" role="button">Descargar CV</a>
-                      </div>
+                    </div>
+                </div>
+                
+                <div class="job-skills col-6">
+                    <div class="row">
+                        <div class="col-1 offset-1">
+                            <img src="assets/images/Job-current.png" alt="Job-current" width="80" height="80">
+                        </div>
+                        <div class="col-8 offset-1">
+                            <blockquote class="blockquote">
+                                <p class="mb-0">Digital Innovation Consultant.</p>
+                                <footer class="blockquote-footer">@ Reality Evolution</cite></footer>
+                            </blockquote>
+                        </div>
+                    </div>
+                    <div id="circleBar-section" class="row text-center">
+                        <div class="skills col-10 offset-1">
+                            <div class="col-12">
+                                <div class="heading">
+                                    <h3 class=""><b>Technical Skills</b></h3>
+                                    <button class="btn btn-outline-warning" onClick="Circlle('.round');">I'm good at</button>
+                                    <!-- <small class="text-center text-uppercase mt-0"></small> -->
+                                </div>
+                            </div>
+
+                            <div class="row text-center">
+                                <div class="col-md-3">
+                                    <div class="round" data-value="0.90" data-size="90" data-thickness="8">
+                                            <strong></strong>
+                                            <span class="progress-title text-uppercase">Digital Business</span>
+                                    </div><!-- radial-prog-area-->
+                                </div><!-- col-sm-6-->
+                            
+                                <div class="col-md-3 offset-1">
+                                    <div div class="round" data-value="0.78" data-size="90" data-thickness="8">
+                                            <strong></strong>
+                                            <span class="progress-title text-uppercase">Web Design</span>
+                                    </div><!-- radial-prog-area-->
+                                </div><!-- col-sm-6-->
+                                
+                                <div class="col-md-3 offset-1">
+                                    <div div class="round" data-value="0.67" data-size="90" data-thickness="8">
+                                            <strong></strong>
+                                            <span class="progress-title text-uppercase">Data Science</span>
+                                    </div><!-- radial-prog-area-->
+                                </div><!-- col-sm-6-->
+                            </div><!-- row -->
+                            
+                        </div>
+                    </div>
                 </div>
 
-                <div class="col-1 offset-1">
-                    <img src="assets/images/Job-current.png" alt="Job-current" width="80" height="80">
-                </div>
-
-                <div class="col-4">
-                    <blockquote class="blockquote">
-                        <p class="mb-0">Digital Innovation Consultant.</p>
-                        <footer class="blockquote-footer">@ Reality Evolution</cite></footer>
-                      </blockquote>
-                </div>
             </div>
-        </div>
+        </div>  
+            
     </section>
 
-    <!-- /About -->
+<!-- /About -->
 
-    <!-- Footer -->
+<!-- Footer -->
 
     <footer id="footer" class="pb-2 pt-3">
         <div class="container">
@@ -301,9 +346,9 @@
         </div>
     </footer>
 
-    <!-- /Footer -->
+<!-- /Footer -->
 
-    <!-- Modal -->
+<!-- Modal -->
 
     <div id="modalProjects" class="modal" tabindex="-1" role="dialog">
         <div class="modal-dialog modal-dialog-centered">
@@ -323,10 +368,8 @@
             </div>
         </div>
     </div>
-
-
     
-    <!-- /Modal -->
+<!-- /Modal -->
 
 
 
@@ -336,6 +379,11 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-circle-progress/1.2.0/circle-progress.min.js"></script>   
     <script src="index.js"></script>
+
+
 </body>
 </html>
