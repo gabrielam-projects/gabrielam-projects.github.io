@@ -22,11 +22,20 @@
 }
 
 #header {
-    background-color: #EE7315;
+    background-color: #c55906;
 }
 
 #brand {
-    font-size: 22px;
+    padding-top: 0px;
+    margin: 0;
+    align-items: center;
+    display: flex;
+}
+
+#brand strong {
+    font-size: 18px;
+    margin-left: 15px;
+    margin-top: 5px;
 }
 
 #home .overlay img {
@@ -54,6 +63,12 @@
 
 #carousel .container h3 {
     top: 25%;
+}
+
+#home strong {
+    position: absolute;
+    margin-top: 400px;
+    width: 380px;
 }
 
 #home a {
