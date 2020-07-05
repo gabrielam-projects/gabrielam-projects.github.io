@@ -192,30 +192,41 @@
     height: 60px;
 }
 
+#emoji {
+    align-items: center;
+}
+
+#emoji a {
+    margin-top: 80px;
+    max-height: 30px;
+}
+
 .jumbotron p {
     text-align: justify;
 }
 
 .job-skills {
-    top: 40px;
+    top: 20px;
 }
 
 #circleBar-section { 
-    margin-top: 80px;
+    margin-top: 60px;
     text-align: center;
 }
 
 .skills {
-    margin-top: 10px;
+    margin-top: 0px;
+    margin-bottom: 40px;
     display: inline-block; 
     padding: 1px 25px 0; 
     border-radius: 5px;
-    /* background-color: whitesmoke; */
     color: #FFAB00;
+    text-align: center;
+    justify-content: center;
 }
 
 .heading { 
-    margin-bottom: 40px; 
+    margin-bottom: 20px; 
     display: inline-block; 
 }
 
