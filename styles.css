@@ -229,11 +229,16 @@
     display: inline-block; 
 }
 
+.contenedor-skills {
+    justify-content: center;
+}
+
 .circleBar-section .round { 
     text-align: center;
     justify-content: center;
     min-height: 200px;
-    margin-top: 10px;
+    width: 100px;
+    margin: 10px;
     position: relative;
 }
 
