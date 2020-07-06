@@ -21,24 +21,24 @@
     display:block;
 }
 
-#header {
+.navbar {
     background-color: #c55906;
 }
 
-#brand {
+.navbar-brand {
     padding-top: 0px;
     margin: 0;
     align-items: center;
     display: flex;
 }
 
-#brand strong {
+.navbar-brand strong {
     font-size: 18px;
     margin-left: 15px;
     margin-top: 5px;
 }
 
-#home .overlay img {
+.carousel-background img {
     position: absolute;
     height: 100%;
     width: 100%;
@@ -49,7 +49,8 @@
     display: flex;
 }
 
-#home .carousel-inner .container h3 {
+.carousel-containerPhrase h3 {
+    top: 25%;
     font-family: 'Gabriola';
     font-size: 3rem;
     position: relative;
@@ -57,71 +58,69 @@
     height: 80vh;
 }
 
-#carousel {
+.home-carousel {
     position: relative;
 }
 
-#carousel .container h3 {
-    top: 25%;
-}
-
-#home strong {
+.home-title {
     position: absolute;
     margin-top: 400px;
     width: 380px;
 }
 
-#home a {
+.navegation a {
     position: absolute;
     margin-top: 450px;
     width: 190px;
 }
 
-#projects .container-fluid {
+.separador-seccion {
+    width: 180px;
+    height: 10px;
+    background-color: #E55119;
+    margin:0px auto;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+
+.projects .container-fluid {
     background-color: #3D4049;
     min-height: 950px;
     align-items: center;
     justify-content: center;
 }
 
-#projects .background-projects {
+.projects .projects-background {
     position: absolute;
+    margin-top: 100px;
     max-width: 100%;
     opacity: 30%;
 }
 
-.seccion {
-    width: 180px;
-    height: 10px;
-    background-color: #E55119;
+.projects .separador-seccion {
     margin:0px auto;
-    margin-top: 40px;
-    border-radius: 20px;
+    margin-top: 110px;
+    display: inline-block;
 }
 
-#projects .seccion {
-    margin:0px auto;
-    margin-top: 100px;
-}
-
-#projects .container-fluid h2 {
+.projects .section-title {
     position: absolute;
     color: white;
     margin-top: 90px;
     padding-top: 30px;
 }
 
-#projects .container-carousel {
+.projects .container-carousel {
     margin-top: 150px;
     display: flex;
 }
 
-#projects .container-carousel img {
+.projects .container-carousel img {
     width: 910px;
     height: 398px;
 }
 
-#projects .container-carousel h5 {
+.projects .container-carousel h5 {
     color: #3D4049;
     background-color: #c5c6c7;
     width: 100%;
@@ -129,7 +128,7 @@
     opacity: 70%;
 }
 
-#central-image img {
+.team-contenedorBackground img {
     object-fit: cover;
     position: absolute;
     opacity: 20%;
@@ -155,20 +154,27 @@
     transform: scale(1.1);
 }
 
-#team .container-fluid {
+.team .container-fluid {
     position: relative;
     display: inline-block;
     text-align: center;
 }
 
-#team .container-fluid .cover-phrase {
+.team .container-fluid .cover-phrase {
     max-height: 180px;
     width: 100vw;
     object-fit: cover;
     filter: grayscale(20%);
 }
 
-#team .container-fluid .text-cover {
+.quote-phrase {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.team .container-fluid .text-cover {
     position: absolute;
     color: rgb(235, 232, 232);
     top: 75%;
@@ -176,27 +182,20 @@
     transform: translate(-50%, -50%);
 }
 
-#team .container-fluid h4 {
+.team .text-cover h4 {
     font-family: 'Gabriola';
     font-size: 26pt;
 }
 
-.quote {
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-#redes-sociales img {
+.social-icons img {
     height: 60px;
 }
 
-#emoji {
+.emoji {
     align-items: center;
 }
 
-#emoji a {
+.emoji a {
     margin-top: 80px;
     max-height: 30px;
 }
@@ -209,7 +208,7 @@
     top: 20px;
 }
 
-#circleBar-section { 
+.circleBar-section { 
     margin-top: 60px;
     text-align: center;
 }
@@ -230,7 +229,7 @@
     display: inline-block; 
 }
 
-#circleBar-section .round { 
+.circleBar-section .round { 
     text-align: center;
     justify-content: center;
     min-height: 200px;
@@ -238,7 +237,7 @@
     position: relative;
 }
 
-#circleBar-section .round strong { 
+.circleBar-section .round strong { 
     position: absolute;
     top: 38%;
     left: 52%;
@@ -248,18 +247,18 @@
     color: #FFAB00;
 }
 
-#circleBar-section .progress-title { 
+.circleBar-section .progress-title { 
     display: block;
     color: #FFAB00;
     font-size: 17px;
     margin-top: 10px;
 }
 
-#circleBar-section button:hover {
+.circleBar-section button:hover {
     color: white;
 }
 
-#footer {
+.footer {
     background: #5A5A5A;
     color: white;
 }

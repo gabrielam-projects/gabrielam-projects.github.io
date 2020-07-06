@@ -13,36 +13,36 @@
     <title>Gabriela Martínez - Blog</title>
     <link rel="icon" type="image/png" href="assets/images/favicon.ico">
 </head>
-<body>
+<body data-spy="scroll" data-target="#navbar" data-offset="80">
 
 <!-- Navbar -->
-    <nav id="header" class="navbar navbar-expand-lg navbar-dark sticky-top">
-        <div class="container pt-2">
-            <a id="brand" class="navbar-brand text-uppercase" href="index.html#home">
-                <img src="assets/images/GM_200x200.png" width="65" height="65" class="d-inline-block align-top" alt="" loading="lazy">
-            <strong>Gabriela Martínez</strong>
-            </a>
-            <!-- <a id="brand" class="navbar-brand text-uppercase" href="#home">Gabriela Martínez</a> -->
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbar">
+<nav id="header" class="navbar navbar-expand-lg navbar-dark sticky-top">
+    <div class="container pt-2">
+        <a id="brand" class="navbar-brand text-uppercase" href="index.html#home">
+            <img src="assets/images/GM_200x200.png" width="65" height="65" class="d-inline-block align-top" alt="" loading="lazy">
+        <strong>Gabriela Martínez</strong>
+        </a>
+        <!-- <a id="brand" class="navbar-brand text-uppercase" href="#home">Gabriela Martínez</a> -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar">
 
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html#projects">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-item nav-link" href="index.html#team">Team</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-item nav-link" href="index.html#about">About</a>
-                    </li>
-                </ul>
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html#projects">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-item nav-link" href="index.html#team">Team</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-item active nav-link" href="index.html#about">About</a>
+                </li>
+            </ul>
 
-            </div>
         </div>
-    </nav>
+    </div>
+</nav>
 <!-- /Navbar -->
 
 <!-- About -->
@@ -50,19 +50,20 @@
         <div class="container"> 
             <div class="row">
                 <div class="col text-center text-uppercase pt-0">
-                    <div class="seccion"></div>
+                    <div class="separador-seccion"></div>
                     <h2 class="mb-0">About</h2>
                     <small>me</small>
                 </div>
             </div>
-            <div id="emoji" class="row">
+            <div class="emoji row">
                 <img src="assets/images/Gabbs-moji-blog.JPG.png" class="rounded-circle" alt="emoji" width="200" height="200"> 
-                <a type="button" class="btn btn-secondary btn-sm" href="index.html">&laquo; Back</a>
+                <a type="button" class="btn btn-secondary btn-sm" href="index.html#about">&laquo; Back</a>
             </div>
         </div>
     </section>
-<!-- About -->
+<!-- /About -->
 
+<!-- Post -->
     <article>
         <div class="container-fluid">
             <div class="row">
@@ -71,12 +72,11 @@
                 </div>
             </div>
         </div>
-
     </article>
+<!-- /Post -->
 
-    <!-- Footer -->
-
-    <footer id="footer" class="pb-2 pt-3">
+<!-- Footer -->
+    <footer id="footer" class="footer pb-2 pt-3">
         <div class="container">
             <div class="row text-center">
                 <div class="col-12">
@@ -85,8 +85,8 @@
             </div>
         </div>
     </footer>
+<!-- /Footer -->
 
-    <!-- /Footer -->
 
 </body>
 </html>
