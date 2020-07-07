@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 
@@ -229,19 +230,29 @@
 
             <div id="redes-sociales" class="social-icons row">
                 <div class="col-1 offset-2 text-center">
-                    <img src="assets/images/Social-icons/Web-icon-black.png" alt="Web-icon">
+                    <a type="button" data-toggle="tooltip" data-placement="top" title="Próximamente" href="#team">
+                        <img src="assets/images/Social-icons/Web-icon-black.png" alt="Web-icon">
+                    </a>
                 </div>
                 <div class="col-1 text-center">
-                    <img src="assets/images/Social-icons/Linkedin-icon-black.png" alt="Linkedin">
+                    <a href="https://www.linkedin.com/company/reality-evolution/" target="_blank">
+                        <img src="assets/images/Social-icons/Linkedin-icon-black.png" alt="Linkedin">
+                    </a>
                 </div>
                 <div class="col-1 text-center">
-                    <img src="assets/images/Social-icons/Github-icon-black.png" alt="Github">
+                    <a type="button" data-toggle="tooltip" data-placement="top" title="Próximamente" href="#team">
+                        <img src="assets/images/Social-icons/Github-icon-black.png" alt="Github">
+                    </a>
                 </div>
                 <div class="col-1 offset-2 text-center">
-                    <img src="assets/images/Social-icons/Instagram-icon-black.png" alt="Instagram">
+                    <a type="button" data-toggle="tooltip" data-placement="top" title="Próximamente" href="#team">
+                        <img src="assets/images/Social-icons/Instagram-icon-black.png" alt="Instagram">
+                    </a>
                 </div>
                 <div class="col-1 text-center">
-                    <img src="assets/images/Social-icons/Twitter-icon-black.png" alt="Twitter">
+                    <a type="button" data-toggle="tooltip" data-placement="top" title="Próximamente" href="#team">
+                        <img src="assets/images/Social-icons/Twitter-icon-black.png" alt="Twitter">
+                    </a>
                 </div>
             </div>
         </div>
@@ -293,7 +304,7 @@
                         <div class="skills col-10 offset-1">
                             <div class="heading-skills">
                                 <h3 class=""><b>Technical Skills</b></h3>
-                                <button class="btn btn-outline-warning" onClick="Circlle('.round');">I'm good at</button>
+                                <button class="btn btn-cargar" onClick="Circlle('.round');">I'm good at</button>
                             </div>
 
                             <div class="contenedor-skills row">
@@ -346,7 +357,7 @@
                 <h5>Infografía del proyecto.</h5>
                 <img src="assets/images/project-example.jpeg" alt="">
                 <hr>
-                <p>Descripción del proyecto <a href="#" class="tooltip-test" title="Tooltip">ver más</a>.</p>
+                <p>Descripción del proyecto <a href="#" data-toggle="tooltip" data-placement="top" title="Tooltip">ver más</a>.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-personalizado" data-dismiss="modal">Cerrar</button>
@@ -360,15 +371,16 @@
 
 
     <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS, Cicle-Progress -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
     
     <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-circle-progress/1.2.0/circle-progress.min.js"></script>   
+    
     <script src="index.js"></script>
-
-
+    
 </body>
+
 </html>
