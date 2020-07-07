@@ -231,6 +231,10 @@ h2 {
     height: 60px;
 }
 
+.social-link {
+    opacity: 80%;
+}
+
 .emoji {
     align-items: center;
 }
