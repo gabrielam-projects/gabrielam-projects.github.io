@@ -5,6 +5,10 @@
     src: url('fonts/gabriola_font.woff') format('woff');
 }
 
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
 .btn-personalizado {
     background-color: #01549B;
     color: white;
@@ -49,6 +53,10 @@
     display: flex;
 }
 
+.phrase-container {
+    margin-left: 20px;
+}
+
 .carousel-containerPhrase h3 {
     top: 25%;
     font-family: 'Gabriola';
@@ -62,25 +70,45 @@
     position: relative;
 }
 
-.home-title {
+.acceso-nav, .navegation {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.home-jd {
     position: absolute;
-    margin-top: 400px;
-    width: 380px;
+    left: 50%;
+    top: 70%;
+    margin: 0 auto;
+    font-size: 16pt;
+    color: #5A5A5A;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+
+strong h5 {
+    width: 80px;
 }
 
 .navegation a {
     position: absolute;
-    margin-top: 450px;
     width: 190px;
+    margin: 0 auto;
+    top: 75%;
 }
 
 .separador-seccion {
     width: 180px;
     height: 10px;
     background-color: #E55119;
-    margin:0px auto;
+    margin: 0px auto;
     margin-top: 30px;
     border-radius: 20px;
+}
+
+h2 {
+    text-transform: uppercase;
 }
 
 .projects .container-fluid {
@@ -90,15 +118,22 @@
     justify-content: center;
 }
 
+.background-container {
+    display: flex;
+    justify-content: center;
+}
+
 .projects .projects-background {
     position: absolute;
+    object-fit: cover;
     margin-top: 100px;
-    max-width: 100%;
+    min-height: 60%;
+    max-width: 80%;
     opacity: 30%;
 }
 
 .projects .separador-seccion {
-    margin:0px auto;
+    margin: 0px auto;
     margin-top: 110px;
     display: inline-block;
 }
@@ -112,7 +147,7 @@
 
 .projects .container-carousel {
     margin-top: 150px;
-    display: flex;
+    display: inline-block;
 }
 
 .projects .container-carousel img {
@@ -131,16 +166,21 @@
 .team-contenedorBackground img {
     object-fit: cover;
     position: absolute;
-    opacity: 20%;
+    opacity: 10%;
     margin: 0px auto;
     max-width: 100%;
 }
 
+.cards-container {
+    box-sizing: border-box;
+}
+
 .card {
     padding: 0x auto;
-    margin:0px auto;
+    margin: 0px auto;
     transition: ease;
     min-height: 80%;
+    box-sizing: border-box;
 }
 
 .card img {
@@ -208,9 +248,12 @@
     top: 20px;
 }
 
+.current-job {
+    box-sizing: border-box;
+}
+
 .circleBar-section { 
     margin-top: 60px;
-    text-align: center;
 }
 
 .skills {
@@ -224,7 +267,7 @@
     justify-content: center;
 }
 
-.heading { 
+.heading-skills { 
     margin-bottom: 20px; 
     display: inline-block; 
 }
@@ -257,6 +300,7 @@
     color: #FFAB00;
     font-size: 17px;
     margin-top: 10px;
+    text-transform: uppercase;
 }
 
 .circleBar-section button:hover {
@@ -303,7 +347,31 @@
     background-color: white;
 }
 
-.container-fluid img {
-    max-width: 100%;
+.post-area {
+    display: inline-flex;
+}
+
+.post-area img {
+    min-width: 80%;
     object-fit: cover;
+}
+
+.abstract {
+    text-align: right;
+    top: 30px;
+}
+
+.post {
+    position: absolute;
+    color: black;
+    top: 520px;
+    left: 320px;
+    padding: 10px;
+    min-width: 40%;
+    max-width: 850px;
+    box-sizing: border-box;
+}
+
+.post h3 {
+    margin: 30px 0px;
 }

@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 
     <title>Gabriela Martínez - Blog</title>
@@ -46,18 +47,23 @@
 <!-- /Navbar -->
 
 <!-- About -->
-    <section id="about-blog">
+    <section id="about-blog" class="about-blog">
         <div class="container"> 
             <div class="row">
-                <div class="col text-center text-uppercase pt-0">
+                <div class="col text-center pt-0">
                     <div class="separador-seccion"></div>
                     <h2 class="mb-0">About</h2>
-                    <small>me</small>
+                    <small class="text-uppercase">me</small>
                 </div>
             </div>
             <div class="emoji row">
-                <img src="assets/images/Gabbs-moji-blog.JPG.png" class="rounded-circle" alt="emoji" width="200" height="200"> 
-                <a type="button" class="btn btn-secondary btn-sm" href="index.html#about">&laquo; Back</a>
+                <div class="col-6">
+                    <img src="assets/images/Gabbs-moji-blog.JPG.png" class="rounded-circle" alt="emoji" width="200" height="200"> 
+                    <a type="button" class="btn btn-secondary btn-sm" href="index.html#about">&laquo; Back</a>
+                </div>
+                <div class="abstract col-6 d-none d-lg-block">
+                    <p>Laborum ea labore exercitation voluptate proident eiusmod minim aliquip duis laboris est. Sit reprehenderit occaecat dolor est tempor sit amet occaecat minim fugiat Lorem aliqua Lorem adipisicing. Nostrud minim ullamco sit labore ad ullamco laboris veniam dolore Lorem aliqua reprehenderit consequat consectetur.</p>
+                </div>
             </div>
         </div>
     </section>
@@ -65,11 +71,52 @@
 
 <!-- Post -->
     <article>
-        <div class="container-fluid">
+        <div class="post-area container-fluid">
             <div class="row">
                 <div class="col">
                     <img src="assets/images/background-blog.jpg" alt="">
                 </div>
+            </div>
+            <div class="post row">
+                <div class="col-10">
+                    <small class="d-none d-md-block">
+                        <strong>Post details:</strong>
+                        <br>
+                        <ul>
+                            <li>
+                                Fecha: 
+                            </li>
+                            <li>
+                                Tópico: 
+                            </li>
+                        </ul>
+
+                    </small>
+                    <h3>Post title: </h3>
+                    <p>
+                        Reprehenderit et laborum ea elit laborum minim reprehenderit ut. Sit sit nisi dolore duis laboris enim laboris eu mollit velit. Tempor commodo elit fugiat sit duis exercitation fugiat pariatur dolore ut non. Ad esse cupidatat eu nisi veniam elit occaecat qui amet. Officia cillum magna aute nisi consectetur nostrud aute mollit esse laboris consectetur ut excepteur consequat.
+                  
+                        Ipsum occaecat commodo incididunt sit nostrud officia. Tempor nisi consectetur non incididunt. Exercitation minim culpa aliquip occaecat occaecat velit.
+                  
+                        Culpa minim veniam dolor elit mollit dolore anim labore nulla sunt id. Minim dolore irure eiusmod qui labore cillum duis duis excepteur. Minim commodo laborum aliqua duis et cupidatat aliqua eiusmod mollit veniam est exercitation. Minim labore minim esse culpa do nostrud.
+                    </p>
+                    <p>
+                        Reprehenderit et laborum ea elit laborum minim reprehenderit ut. Sit sit nisi dolore duis laboris enim laboris eu mollit velit. Tempor commodo elit fugiat sit duis exercitation fugiat pariatur dolore ut non. Ad esse cupidatat eu nisi veniam elit occaecat qui amet. Officia cillum magna aute nisi consectetur nostrud aute mollit esse laboris consectetur ut excepteur consequat.
+                  
+                        Ipsum occaecat commodo incididunt sit nostrud officia. Tempor nisi consectetur non incididunt. Exercitation minim culpa aliquip occaecat occaecat velit.
+                  
+                        Culpa minim veniam dolor elit mollit dolore anim labore nulla sunt id. Minim dolore irure eiusmod qui labore cillum duis duis excepteur. Minim commodo laborum aliqua duis et cupidatat aliqua eiusmod mollit veniam est exercitation. Minim labore minim esse culpa do nostrud.
+                    </p>
+                </div>
+                <!-- <div class="col-10">
+                    <p>
+                        Post 2: Reprehenderit et laborum ea elit laborum minim reprehenderit ut. Sit sit nisi dolore duis laboris enim laboris eu mollit velit. Tempor commodo elit fugiat sit duis exercitation fugiat pariatur dolore ut non. Ad esse cupidatat eu nisi veniam elit occaecat qui amet. Officia cillum magna aute nisi consectetur nostrud aute mollit esse laboris consectetur ut excepteur consequat.
+                  
+                        Ipsum occaecat commodo incididunt sit nostrud officia. Tempor nisi consectetur non incididunt. Exercitation minim culpa aliquip occaecat occaecat velit.
+                  
+                        Culpa minim veniam dolor elit mollit dolore anim labore nulla sunt id. Minim dolore irure eiusmod qui labore cillum duis duis excepteur. Minim commodo laborum aliqua duis et cupidatat aliqua eiusmod mollit veniam est exercitation. Minim labore minim esse culpa do nostrud.
+                    </p>
+                </div> -->
             </div>
         </div>
     </article>

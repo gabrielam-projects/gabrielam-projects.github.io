@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 
     <title>Gabriela Martínez</title>
@@ -57,7 +58,7 @@
                 <div class="carousel-item active">
                         <div class="carousel-containerPhrase">
                             <div class="row">
-                                <div class="col-sm-4 col-md-6 text-center text-md-right">
+                                <div class="phrase-container col-sm-4 col-md-6 text-center text-md-right">
                                     <h3>El destino es para disfrutarse
                                     pero lo que vale es el camino.</h3>
                                 </div>
@@ -67,7 +68,7 @@
                 <div class="carousel-item">
                         <div class="carousel-containerPhrase">
                             <div class="row">
-                                <div class="col-sm-4 col-md-6 text-center text-md-right">
+                                <div class="phrase-container col-sm-4 col-md-6 text-center text-md-right">
                                     <h3>La suerte tiene que encontrarte preparado.</h3>
                                 </div>
                             </div>
@@ -75,11 +76,11 @@
                 </div>
                 
                 <div class="container">
-                    <div class="row d-none d-md-block">
-                        <div class="col-md-7 col-lg-8 text-center">
-                            <strong class="home-title">Digital Innovation Consultant</strong>
+                    <div class="acceso-nav row d-none d-lg-block">
+                        <div class="home-jd">
+                            <h4>Digital Innovation <strong>Consultant</strong></h4>
                         </div>
-                        <div class="navegation col-10 text-center">
+                        <div class="navegation row ">
                             <a href="#projects" class="btn btn-personalizado active" role="button" aria-pressed="true"> Navegar </a>
                         </div>
                     </div>
@@ -92,13 +93,13 @@
 <!-- Proyectos -->
     <section id="projects" class="projects mt-0">
         <div class="container-fluid">
-            <div class="row text-center">
+            <div class="background-container row">
                 <div class="separador-seccion pb-0"></div>
                 <img class="projects-background" src="assets/images/background-projects.png" alt="Background">
-                <h2 class="section-title col text-center text-uppercase">Proyectos</h2>
+                <h2 class="section-title col text-center">Proyectos</h2>
             </div>
             
-            <div class="container-carousel col-8 offset-2 text-center">
+            <div class="container-carousel col-8 offset-2">
                 <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
                     <ol class="carousel-indicators">
                       <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
@@ -148,7 +149,7 @@
     <section id="team" class="team mt-0">
         <div class="container">
             <div class="row">
-                <div class="col text-center text-uppercase pt-0">
+                <div class="col text-center pt-0">
                     <div class="separador-seccion"></div>
                     <h2>Team</h2>
                 </div>
@@ -161,7 +162,7 @@
             <div class="team-contenedorBackground col-6 offset-3 d-none d-lg-block">
                 <img src="assets/images/team-subheader.jpg" alt="">
             </div>
-            <div class="row">
+            <div class="cards-container row">
                 <div class="col-md-3 col-lg-2 mb-4">
                     <div class="card">
                         <img src="assets/images/Cards/1.Digital_business.jpg" class="card-img-top" alt="...">
@@ -251,10 +252,10 @@
     <section id="about" class="mt-0">
         <div class="container"> 
             <div class="row">
-                <div class="col text-center text-uppercase pt-0">
+                <div class="col text-center pt-0">
                     <div class="separador-seccion"></div>
                     <h2 class="mb-0">About</h2>
-                    <small>me</small>
+                    <small class="text-uppercase">me</small>
                 </div>
             </div>
             <div class="emoji row">
@@ -277,11 +278,11 @@
                 </div>
                 
                 <div class="job-skills col-6 mb-4">
-                    <div class="row">
+                    <div class="current-job row">
                         <div class="col-1 offset-1">
                             <img src="assets/images/Job-current.png" alt="Job-current" width="80" height="80">
                         </div>
-                        <div class="col-8 offset-1">
+                        <div class="col-10 col-md-12 col-lg-8 offset-1">
                             <blockquote class="blockquote">
                                 <p class="mb-0">Digital Innovation Consultant.</p>
                                 <footer class="blockquote-footer">@ Reality Evolution</cite></footer>
@@ -290,7 +291,7 @@
                     </div>
                     <div class="circleBar-section row">
                         <div class="skills col-10 offset-1">
-                            <div class="heading">
+                            <div class="heading-skills">
                                 <h3 class=""><b>Technical Skills</b></h3>
                                 <button class="btn btn-outline-warning" onClick="Circlle('.round');">I'm good at</button>
                             </div>
@@ -298,17 +299,17 @@
                             <div class="contenedor-skills row">
                                 <div class="round" data-value="0.89" data-size="90" data-thickness="6">
                                         <strong></strong>
-                                        <span class="progress-title text-uppercase">Digital Business</span>
+                                        <span class="progress-title">Digital Business</span>
                                 </div>
                         
                                 <div div class="round" data-value="0.67" data-size="90" data-thickness="6">
                                         <strong></strong>
-                                        <span class="progress-title text-uppercase">Web Design</span>
+                                        <span class="progress-title">Web Design</span>
                                 </div>
 
                                 <div div class="round" data-value="0.78" data-size="90" data-thickness="6">
                                         <strong></strong>
-                                        <span class="progress-title text-uppercase">Data Science</span>
+                                        <span class="progress-title">Data Science</span>
                                 </div>
                             </div>
                             
