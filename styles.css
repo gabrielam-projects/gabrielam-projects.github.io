@@ -54,7 +54,8 @@ body {
 }
 
 .phrase-container {
-    margin-left: 20px;
+    margin-left: 60px;
+    padding-top: 50px;
 }
 
 .carousel-containerPhrase h3 {
@@ -62,7 +63,7 @@ body {
     font-family: 'Gabriola';
     font-size: 3rem;
     position: relative;
-    color:rgb(116, 127, 143);
+    color:rgba(129, 120, 120, 0.794);
     height: 80vh;
 }
 
