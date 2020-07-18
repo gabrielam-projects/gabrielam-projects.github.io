@@ -323,6 +323,10 @@ h2 {
     color: white;
 }
 
+.footer a {
+    color: white;
+}
+
 .modal-title {
     background-color: #dad6d6;
     padding: 3%;
