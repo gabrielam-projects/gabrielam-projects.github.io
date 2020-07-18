@@ -1,7 +1,7 @@
-// const images = document.querySelectorAll('img');
-// images.forEach((image)=>{
-//     image.classList.add('fadeIn')
-// })
+const images = document.querySelectorAll('img');
+images.forEach((image)=>{
+    image.classList.add('fadeIn')
+})
 
 function Circlle(el){
     $(el).circleProgress({fill: {color: '#FFAB00'}})
