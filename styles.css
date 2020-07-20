@@ -323,6 +323,11 @@ h2 {
     color: white;
 }
 
+.footer-data {
+    display: inline-flex;
+    justify-content: space-evenly;  
+}
+
 .footer a {
     color: white;
 }
@@ -436,4 +441,20 @@ h2 {
 
 .post p {
     padding-top: 5px;
+}
+
+.project01 {
+    position: relative;
+    margin: 0;
+}
+
+.project01 img {
+    max-height: 380px;
+    width: 100vw;
+    object-fit: cover;
+}
+
+.project-post {
+    background-color: whitesmoke;
+    padding-top: 10px;
 }
