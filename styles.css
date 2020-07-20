@@ -425,7 +425,7 @@ h2 {
 .post .share {
     justify-content: right;
     padding-right: 15px;
-    display: flex;
+    display: inline-flex;
 }
 
 .post .share-buttons {
