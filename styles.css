@@ -376,14 +376,14 @@ h2 {
 }
 
 .abstract {
-    text-align: right;
+    text-align: justify;
     top: 30px;
 }
 
 .post {
     position: absolute;
     color: black;
-    top: 520px;
+    top: 540px;
     left: 320px;
     padding: 10px;
     min-width: 40%;
@@ -391,6 +391,49 @@ h2 {
     box-sizing: border-box;
 }
 
-.post h3 {
-    margin: 30px 0px;
+.post .post-details {
+    text-transform: uppercase;
+}
+
+.table-cont {
+    padding: 0px;
+    justify-content: right;
+}
+
+.post table {
+    color: whitesmoke;
+    justify-content: right;
+}
+
+.post table td {
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin: 1px;
+}
+
+.post .share {
+    justify-content: right;
+    padding-right: 15px;
+    display: flex;
+}
+
+.post .share-buttons {
+    display: inline-flex;
+    align-items: center;
+}
+
+.post .share-buttons img {
+    max-width: 35px;
+    padding: 5px;
+    border: 0;
+    box-shadow: 0;
+    display: inline;
+}
+
+.post .post-title {
+    margin: 60px 0px;
+}
+
+.post p {
+    padding-top: 5px;
 }
