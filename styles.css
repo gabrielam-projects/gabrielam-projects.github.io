@@ -165,12 +165,18 @@ h2 {
     opacity: 70%;
 }
 
+.team-contenedorBackground {
+    position: relative;
+    align-items: center;
+}
+
 .team-contenedorBackground img {
     object-fit: cover;
     position: absolute;
     opacity: 10%;
     margin: 0px auto;
     max-width: 100%;
+    padding-top: 10%;
 }
 
 .cards-container {
