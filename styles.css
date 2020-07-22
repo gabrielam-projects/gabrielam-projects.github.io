@@ -327,11 +327,39 @@ h2 {
 .footer {
     background: #5A5A5A;
     color: white;
+    padding: 10px 0;
 }
 
 .footer-data {
     display: inline-flex;
-    justify-content: space-evenly;  
+    justify-content: space-between;
+    align-items: center;  
+}
+
+.form-contacto {
+    padding: 10px 0;
+    justify-content: left;
+}
+
+.form-contacto input {
+    color: #5A5A5A;
+    padding: 5px 30px;
+    border-radius: 30px;
+    background-image: url(assets/images/envelope-solid.svg);
+    background-size: 15px 15px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 10px;
+}
+
+.form-contacto button {
+    margin: 8px 5px;
+    width: 80px;
+}
+
+.footer p {
+    padding: 0;
+    margin: 0;
 }
 
 .footer a {
