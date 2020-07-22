@@ -355,6 +355,8 @@ h2 {
 .form-contacto button {
     margin: 8px 5px;
     width: 80px;
+    border-color: whitesmoke;
+    color: whitesmoke;
 }
 
 .footer p {
