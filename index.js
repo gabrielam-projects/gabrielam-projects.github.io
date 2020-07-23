@@ -13,7 +13,7 @@ function Circlle(el){
 };
 Circlle('.round');
 
-const email_value = document.querySelector('#email').value;
+var email_value = document.getElementsByClassName('email')[0].value;
 
 $('#contact').on('submit', function(event) {
     event.preventDefault(); // prevent reload
