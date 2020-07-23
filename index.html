@@ -16,6 +16,13 @@
 
     <title>Gabriela Martínez</title>
     <link rel="icon" type="image/png" href="assets/images/favicon.ico">
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function(){
+            emailjs.init("user_0mxxMl4fBIPxARsZGdniB");
+        })();
+    </script>
   </head>
 
   <body data-spy="scroll" data-target="#navbar" data-offset="80">
@@ -343,10 +350,10 @@
             <div class="row">
                 <div class="footer-data col-12">
                     <div class="contacto col-3">
-                        <form class="form-contacto">
+                        <form id="contact" class="form-contacto">
                             <h5>¿Quieres que te contacte?</h5>
                             <input id="email" type="email" placeholder="Déjame tu email">
-                            <button type="button" class="btn btn-outline-dark">Enviar</button>
+                            <button type="submit" class="btn btn-outline-dark">Enviar</button>
                         </form>
                     </div>
                     <p>Gabriela Martínez - 2020</p>

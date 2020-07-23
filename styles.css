@@ -342,6 +342,7 @@ h2 {
 }
 
 .form-contacto input {
+    width: 100%;
     color: #5A5A5A;
     padding: 5px 30px;
     border-radius: 30px;
