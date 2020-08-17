@@ -1,0 +1,15 @@
+.project01 {
+    position: relative;
+    margin: 0;
+}
+
+.project01 img {
+    max-height: 380px;
+    width: 100vw;
+    object-fit: cover;
+}
+
+.project-post {
+    background-color: whitesmoke;
+    /* padding-top: 10px; */
+}
