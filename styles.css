@@ -42,6 +42,20 @@ body {
     margin-top: 5px;
 }
 
+.home-profile {
+    background-color: #c55906;
+    color: white;
+    text-align: center;
+    position: relative;
+    margin: 0 auto;
+    letter-spacing: 0.5px;
+}
+
+.home-profile h1 {
+    font-family: 'Iceland', cursive;
+    text-transform: uppercase;
+}
+
 .carousel-background img {
     position: absolute;
     height: 100%;
@@ -80,7 +94,7 @@ body {
 .home-jd {
     position: absolute;
     left: 50%;
-    top: 70%;
+    top: 65%;
     margin: 0 auto;
     font-size: 16pt;
     color: #5A5A5A;
@@ -97,7 +111,7 @@ strong h5 {
     position: absolute;
     width: 190px;
     margin: 0 auto;
-    top: 75%;
+    top: 70%;
 }
 
 .separador-seccion {
@@ -193,7 +207,6 @@ h2 {
 
 .card img {
     height: 100%;
-    width: 100%;
 }
 
 .card-body {
