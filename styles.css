@@ -26,8 +26,14 @@ body {
 }
 
 .navbar {
-    background-color: #c55906;
+    background-color: #596869;
 }
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #FFFFFF;
+}
+
+/* Estilo viejos */
 
 .navbar-brand {
     padding-top: 0px;
