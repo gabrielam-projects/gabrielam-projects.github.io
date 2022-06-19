@@ -9,6 +9,79 @@ body {
     font-family: 'Roboto Condensed', sans-serif;
 }
 
+.navbar {
+    background-color: #596869;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #FFFFFF;
+}
+
+.encabezado {
+    background-color: #ED7002;
+    height: 300px;
+}
+
+.encabezado img {
+    height: 300px;
+}
+
+.encabezado .title {
+    color: #FFFFFF;
+    display: grid;
+    height: 100px;
+    text-align: center;
+    align-items: end;
+    font-style: bold;
+    line-height: 3.5;
+}
+
+.encabezado .description {
+    color: #FFFFFF;
+    height: 150px;
+    text-align: center;
+}
+
+.encabezado .quote {
+    color: #FFFFFF;
+    height: 50px;
+    text-align: left;
+    font-style: italic;
+}
+
+.principales-intereses {
+    color: #596869;
+    padding: 20px;
+    text-align: center;
+    font-style: bold;
+    font-size: 24px;
+}
+
+.slider .box {
+    color: #596869;
+    text-align: center;
+    border-style: solid;
+}
+
+.slider .box .uno {
+    background-image: url();
+}
+
+.slider .box .dos {
+    background-image: url();
+}
+
+.slider .box .tres {
+    background-image: url();
+}
+
+
+
+
+
+/*************************************************/
+/* Estilo viejos */
+
 .btn-personalizado {
     background-color: #01549B;
     color: white;
@@ -24,16 +97,6 @@ body {
     content: "";
     display: block;
 }
-
-.navbar {
-    background-color: #596869;
-}
-
-.navbar-dark .navbar-nav .nav-link {
-    color: #FFFFFF;
-}
-
-/* Estilo viejos */
 
 .navbar-brand {
     padding-top: 0px;
