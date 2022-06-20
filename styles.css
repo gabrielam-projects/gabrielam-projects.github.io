@@ -59,8 +59,13 @@ body {
 
 .slider .box {
     color: #596869;
+    display: grid;
+    height: 120px;
     text-align: center;
+    align-items: center;
     border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
 }
 
 .slider .box .uno {
@@ -75,6 +80,51 @@ body {
     background-image: url();
 }
 
+.footer {
+    background: #5A5A5A;
+    color: white;
+    padding: 10px 0;
+}
+
+.footer-data {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;  
+}
+
+.form-contacto {
+    padding: 10px 0;
+    justify-content: left;
+}
+
+.form-contacto input {
+    width: 100%;
+    color: #5A5A5A;
+    padding: 5px 20px;
+    border-radius: 7px;
+    margin: 5px;
+}
+
+.form-contacto .message {
+    height: 75px;
+}
+
+.form-contacto button {
+    margin: 8px 5px;
+    width: 80px;
+    border-color: whitesmoke;
+    color: whitesmoke;
+}
+
+.footer p {
+    padding: 0;
+    margin: 0;
+}
+
+.footer a {
+    color: white;
+    margin: 5px;
+}
 
 
 
@@ -410,50 +460,6 @@ h2 {
     color: white;
 }
 
-.footer {
-    background: #5A5A5A;
-    color: white;
-    padding: 10px 0;
-}
-
-.footer-data {
-    display: inline-flex;
-    justify-content: space-between;
-    align-items: center;  
-}
-
-.form-contacto {
-    padding: 10px 0;
-    justify-content: left;
-}
-
-.form-contacto input {
-    width: 100%;
-    color: #5A5A5A;
-    padding: 5px 30px;
-    border-radius: 30px;
-    background-image: url(assets/images/Footer/envelope-solid.svg);
-    background-size: 15px 15px;
-    background-repeat: no-repeat;
-    background-position-y: center;
-    background-position-x: 10px;
-}
-
-.form-contacto button {
-    margin: 8px 5px;
-    width: 80px;
-    border-color: whitesmoke;
-    color: whitesmoke;
-}
-
-.footer p {
-    padding: 0;
-    margin: 0;
-}
-
-.footer a {
-    color: white;
-}
 
 .modal-title {
     background-color: #dad6d6;
