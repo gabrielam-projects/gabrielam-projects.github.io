@@ -15,6 +15,7 @@ body {
 
 .navbar-dark .navbar-nav .nav-link {
     color: #FFFFFF;
+    margin: 8px;
 }
 
 /* header */
