@@ -18,7 +18,7 @@ body {
     margin: 8px;
 }
 
-/* header */
+/* Encabezado */
 
 .header {
     background-color: #ED7002;
@@ -102,18 +102,18 @@ body {
     background-image: url("assets/images/mental-health-2019924_1920.jpg");
 }
 
-.galery-container {
+.galery {
     background-color: #ED7002;
     margin-top: 35px;
     height: 450px;
     width: 100%;
 }
 
-.galery-container .content {
+.galery .content {
     padding-top: 120px;
 }
 
-.galery-container .galery {
+.galery .info {
     height: 330px;
     background-color: #FF8811;
 }
@@ -122,15 +122,6 @@ body {
     padding-top: 150px;
     color: #EBEBEB;
     font-size: 14pt;
-    font-weight: bold;
-}
-
-.galery-container li {
-    list-style: none;
-    text-align: center;
-    margin: 10px 0;
-    color: #FBE241;
-    font-size: 20pt;
     font-weight: bold;
 }
 
@@ -143,6 +134,7 @@ body {
 
 .image-box {
     flex: 1;
+    max-height: 330px;
     overflow: hidden;
     transition: .5s;
     margin: 0 2%;
@@ -151,7 +143,7 @@ body {
   
 .image-box > img {
     width: 200%;
-    height: calc(100% - 60vh);
+    height: calc(100% - 20vh);
     object-fit: cover; 
     transition: .5s;
     box-shadow: 5px 5px rgba(0,0,0,.1);
@@ -161,7 +153,16 @@ body {
     flex: 1 1 50%; }
 .image-box:hover > img {
     width: 100%;
-    height: 50%;
+    height: 80%;
+}
+
+.topics li {
+    list-style: none;
+    text-align: center;
+    margin: 10px 0;
+    color: #FBE241;
+    font-size: 20pt;
+    font-weight: bold;
 }
 
 /* Footer */
