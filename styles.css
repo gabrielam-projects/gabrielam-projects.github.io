@@ -18,7 +18,11 @@ body {
     margin: 8px;
 }
 
-/* Encabezado */
+.navbar .active {
+    font-weight: 900;
+}
+
+/* Header */
 
 .header {
     background-color: #ED7002;
@@ -52,7 +56,7 @@ body {
     font-style: italic;
 }
 
-/* Intereses */
+/* Interesting */
 
 .principales-intereses {
     color: #596869;
@@ -129,7 +133,6 @@ body {
     display: flex;
     width: 100%;
     box-sizing: border-box;
-    height: 100vh;
 }
 
 .image-box {
@@ -139,7 +142,7 @@ body {
     transition: .5s;
     margin: 0 2%;
     line-height: 0;
-  }
+}
   
 .image-box > img {
     width: 200%;
@@ -147,10 +150,12 @@ body {
     object-fit: cover; 
     transition: .5s;
     box-shadow: 5px 5px rgba(0,0,0,.1);
-  }
+}
 
 .image-box:hover { 
-    flex: 1 1 50%; }
+    flex: 1 1 50%; 
+}
+
 .image-box:hover > img {
     width: 100%;
     height: 80%;
@@ -163,6 +168,54 @@ body {
     color: #FBE241;
     font-size: 20pt;
     font-weight: bold;
+}
+
+/* Classes */
+
+#classes .container-fluid {
+    margin: 20px;
+}
+
+.title {
+    text-align: center;
+    padding: 20px;
+}
+
+.title h2 {
+    color: #ED7002;
+}
+
+.calendar {
+    display: flow-root;
+    color: whitesmoke;
+}
+
+.calendar i {
+    margin: 5px;
+}
+
+.calendar .btn {
+    width: max-content;
+}
+
+.themes a {
+    color: #ED7002;
+}
+
+.themes a:hover {
+    color: #ED7002;
+}
+
+.themes .active {
+    color: #596869;
+}
+
+.themes h4 {
+    margin: 15px 30px;
+}
+
+.themes ul.list-one {
+    list-style-image: url('https://66.media.tumblr.com/1154f7ef2be00e639fb400cd13d8c1a0/tumblr_inline_pjzunv3H4y1qbf55o_75sq.gif');
 }
 
 /* Footer */
