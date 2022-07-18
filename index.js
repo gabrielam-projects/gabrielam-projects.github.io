@@ -1,3 +1,14 @@
+// ------------- Ajustes scroll - navbar -------------
+
+// $('.nav-link').click(function () {
+//     $('section').css('padding-top', '0');
+// });
+
+
+// window.onhashchange = function () {
+// $('section').css('padding-top', '100px');
+// };
+
 // ------------- Animaciones -------------
 
 const images = document.querySelectorAll('img');

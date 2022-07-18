@@ -22,6 +22,13 @@ body {
     font-weight: 900;
 }
 
+.title h2 {
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    color: #ED7002;
+}
+
 /* Header */
 
 .header {
@@ -35,12 +42,12 @@ body {
 
 .header .title {
     color: #FFFFFF;
+    margin-top: 15px;
     display: grid;
     height: 100px;
     text-align: center;
     align-items: end;
     font-style: bold;
-    line-height: 3.5;
 }
 
 .header .description {
@@ -57,14 +64,6 @@ body {
 }
 
 /* Interesting */
-
-.principales-intereses {
-    color: #596869;
-    padding: 20px;
-    text-align: center;
-    font-style: bold;
-    font-size: 24px;
-}
 
 .slider .box {
     color: #596869;
@@ -170,19 +169,21 @@ body {
     font-weight: bold;
 }
 
+/* Projects */
+
+.background {
+    background-image: url("assets/images/Section in contruction.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    height: 400px;
+}
+
 /* Classes */
 
 #classes .container-fluid {
     margin: 20px 0px;
-}
-
-.title {
-    text-align: center;
-    padding: 20px;
-}
-
-.title h2 {
-    color: #ED7002;
 }
 
 .calendar {
@@ -282,11 +283,11 @@ body {
     color: white;
 }
 
-#team:before, #about::before {
+/* #team:before, #about::before {
     height: 80px;
     content: "";
     display: block;
-}
+} */
 
 .navbar-brand {
     padding-top: 0px;
