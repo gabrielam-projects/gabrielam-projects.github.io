@@ -65,6 +65,20 @@ body {
 
 /* Interesting */
 
+.display {
+    display: flex;
+    align-items: center;
+}
+
+.display button {
+    background-color: whitesmoke;
+    border-color: whitesmoke;
+    color: #ED7002;
+    margin: 0px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px;
+}
+
 .slider .box {
     color: #596869;
     display: grid;
@@ -216,7 +230,7 @@ body {
 }
 
 .themes ul.list-one {
-    list-style-image: url('https://66.media.tumblr.com/1154f7ef2be00e639fb400cd13d8c1a0/tumblr_inline_pjzunv3H4y1qbf55o_75sq.gif');
+    list-style: url("https://www.fg-a.com/bullets/2020-bullet-point-check-grey-animated.gif");
 }
 
 /* Footer */
