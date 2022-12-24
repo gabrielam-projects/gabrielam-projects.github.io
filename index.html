@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="es">
+
 <head>
     <!-- Required meta tags -->
     <meta charset="UTF-8">
@@ -10,8 +11,10 @@
 
     <!-- Estilos CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
 
     <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
@@ -24,11 +27,11 @@
 
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"></script>
     <script type="text/javascript">
-        (function(){
+        (function () {
             emailjs.init("user_0mxxMl4fBIPxARsZGdniB");
         })();
     </script>
-    
+
     <!-- Meta Open Graph -->
     <meta property="og:type" content="article" />
     <meta property="og:title" content="Web personal - Gabriela Martínez" />
@@ -41,15 +44,17 @@
 
 <body data-spy="scroll" data-target="#navbar" data-offset="80">
 
-<!-- Navbar -->
+    <!-- Navbar -->
     <nav id="header" class="navbar navbar-expand-lg navbar-dark sticky-top">
         <div class="container pt-2">
             <a id="brand" class="navbar-brand text-uppercase" href="#home">
-                <img src="assets/images/Home/GM_200x200.svg" width="80" height="80" class="d-inline-block align-top" alt="Logo" loading="lazy">
-            <!-- <strong>Gabriela Martínez</strong> -->
+                <img src="assets/images/Home/GM_200x200.svg" width="80" height="80" class="d-inline-block align-top"
+                    alt="Logo" loading="lazy">
+                <!-- <strong>Gabriela Martínez</strong> -->
             </a>
             <!-- <a id="brand" class="navbar-brand text-uppercase" href="#home">Gabriela Martínez</a> -->
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar"
+                aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbar">
@@ -72,9 +77,9 @@
             </div>
         </div>
     </nav>
-<!-- /Navbar -->
+    <!-- /Navbar -->
 
-<!-- Header -->
+    <!-- Header -->
     <section id="header">
         <div class="header container-fluid">
             <div class="row">
@@ -95,69 +100,126 @@
             </div>
         </div>
     </section>
-<!-- /Header -->
+    <!-- /Header -->
 
 
-<!-- Intereses -->
-    <!-- <section id="interesting">
+    <!-- Intereses -->
+    <section id="interesting" class="section">
         <div class="container title">
-            <h2>Principales intereses</h2>
+            <h2>Principales líneas de interés</h2>
         </div>
-        <div class="slider container">
-            <div class="row">
-                <div class="display col-1">
-                    <button class="display-left" onclick="plusDivs(-1)">&#10094;</button>
-                </div>
-                <div id="uno" class="box col-2 offset-1">
-                    <a href="">Ciencias de la Computación</a>
-                </div>
-                <div id="dos" class="box col-2 offset-1">
-                    <a href="">Liderazgo y talento humano</a>
-                </div>
-                <div id="tres" class="box col-2 offset-1">
-                    <a href="">Salud y desarrollo personal</a>
-                </div>
-                <div class="display justify-content-end col-1 offset-1">
-                    <button class="display-right" onclick="plusDivs(+1)">&#10095;</button>
-                </div>
+        <div class="container gallery">
+            <div class="box">
+                <img src="https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?cs=srgb&dl=pexels-luis-gomes-546819.jpg&fm=jpg">
+                <span>Software</span>
+            </div>
+            <div class="box">
+                <img src="https://www.profesionalreview.com/wp-content/uploads/2019/08/Deep-Learning-4.jpeg">
+                <span>Data Science</span>
+            </div>
+            <div class="box">
+                <img src="https://media.istockphoto.com/id/1096449702/photo/flat-lay-fitness-composition-sneakers-smartphone-and-headphones.jpg?s=612x612&w=0&k=20&c=ZKPSLpdnWStokPpnpHn8ko4ItNvsNHWBzoYd6XUzYsE=">
+                <span>Salud</span>
+            </div>
+            <div class="box">
+                <img src="https://www.proofhub.com/wp-content/uploads/2021/01/agile-team.jpg">
+                <span>Liderazgo</span>
             </div>
         </div>
+    </section>
+    <!-- /Intereses -->
 
-        <div class="galery container-fluid">
-            <div class="content row">
-                <div class="info col-6 offset-1">
-                    <div class="row">
-                        <div class="description col-4">
-                            <p>Asesoría en diseño, desarrollo y gestión ágil de proyectos.</p>
-                        </div>
-                        <div class="galery-images col-8">
-                            <div class="image-box">
-                                <img src="https://www.coregistros.com/wp-content/uploads/2016/07/big-data-bbdd-data-base-bases-de-datos.jpg">
-                            </div>
-                            <div class="image-box">
-                                <img src="https://forum.huawei.com/enterprise/es/data/attachment/forum/202203/13/101530qtabuu5risuc2hbg.png">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="topics col-3 offset-1">
-                    <ul>
-                        <li>DATA SCIENCE</li>
-                        <li>MACHINE LEARNING</li>
-                        <li>SOFTWARE DEV</li>
-                        <li>DIGITAL PRODUCTS</li>
-                        <li>GAMIFICATION</li>
-                    </ul>
-                </div>
+    <!-- About me -->
+    <section id="about" class="section">
+        <div class="container title">
+            <h2>¿Quién es Gabriela Martínez?</h2>
+            <div class="container">
+                <p class="texto col-10 offset-1">
+                    Estudié ingeniería y computación en el Instituto Polítecnico Nacional, en México.
+                    Desde temprana edad me interese por la tecnología y la programación, cuando egresé
+                    de la licenciatura decidí dedicarme a emprender proyectos basados en software y
+                    modelos de negocio enfocados en digitalización.
+                </p><br>
+                <p class="texto col-10 offset-1">
+                    Me apasiona trabajar en proyectos de innovación y formar equipos para desarrollarlos.
+                    Desde hace algunos años también doy clases de programación y ciencia de datos, y creo planes
+                    de carrera para personas interesadas en trabajar en la industría tech. Considero que tengo
+                    la vocación de transmitir conocimiento y orientar a las personas en su camino profesional.
+                </p><br>
+                <span class="texto col-10 offset-1">
+                    Algunas de mis cualidades son:
+                </span>
+                <ul class="cualidades col-8 offset-2">
+                    <li><b>&#128737; Confianza y certeza.</b></li>
+                    <p>
+                        Transmito mucha seguridad en mi entorno, mi forma racional, analítica y prudente de ser hace que
+                        la gente alrededor de mí se sienta tranquila y con la certeza de que lo que digo tiene
+                        fundamentos y una razón de ser. Siempre me he destacado por ser muy responsable y darle mucho
+                        valor a mis promesas. Me gusta honrar la frase <i>"Mi palabra vale lo que un contrato".</i>
+                    </p>
+                    <li><b>&#129309; Liderazgo empático.</b></li>
+                    <p>
+                        Soy muy consciente de que no todos tenemos las mismas habilidades ni las mismas circunstancias.
+                        Entonces, siempre hago el esfuerzo de entender qué pasa con los demás para intentar
+                        comprenderlos
+                        y guiar mi liderazgo entorno a sus necesidades. Trato de sacar el máximo potencial de cada
+                        persona
+                        para beneficiar al grupo pero siempre cuidando mucho a cada integrante. Mi filosofía es que las
+                        personas comprendidas y felices aportan mucho más.
+                    </p>
+                    <li><b>&#128373; Visión organizacional.</b></li>
+                    <p>
+                        Alrededor de los 20 años me di cuenta que tenía talento para los algorítmos y es en gran medida
+                        por
+                        mi capacidad de observación sistémica. Cuando llego a un lugar me resulta inevitable mapear el
+                        entorno
+                        y verlo como "un todo" compuesto por partes que se comunican entre sí. Eso también me hace buena
+                        creando
+                        y entendiendo procesos, y por lo tanto, organizaciones.
+                    </p>
+                </ul>
+                <span class="texto col-10 offset-1">
+                    Y sobre mis defectos...
+                </span>
+                <ul class="cualidades col-8 offset-2">
+                    <li><b>&#128681; Me cuesta arriesgarme.</b></li>
+                    <p>
+                        Constantemente me esfuerzo por minimizar riesgos y me cuesta aventurarme cuando no tengo
+                        certezas sobre
+                        algo. Paradójimente me gustan mucho los negocios, sin embargo, creo que incluso ahí, suelo jugar
+                        con un
+                        perfil de riesgo bajo, lo que en muchas ocasiones me hace dejar ir oportunidades pero valoro
+                        mucho más mi
+                        tranquilidad.
+                    </p>
+                    <li><b>&#128101; Hago grupos cerrados.</b></li>
+                    <p>
+                        Me gusta trabajar en equipo pero no trabajar con todo el mundo. Suele tener un perfil selecto y
+                        algo
+                        cerrado del tipo de personas con las que me siento cómoda y cuando me toca colaborar con alguien
+                        que no se
+                        apega a ese perfil, me cuesta, no la paso muy bien.
+                    </p>
+                    <li><b>&#128209; Soy unitask.</b></li>
+                    <p>
+                        Dicen que las mujeres somos naturalmente multi-tasking. Bueno, no es mi caso. Aunque me gusta
+                        hacer
+                        actividades variadas y normalmente no puedo quedarme haciendo la misma cosa por varias horas, no
+                        suelo
+                        hacer más de dos cosas a la vez. Creo que la mayoría de mi <i>RAM</i> se me va en pensar y no me
+                        quedan muchas
+                        energías para más cosas.
+                    </p>
+                </ul>
             </div>
         </div>
-    </section> -->
-<!-- /Intereses -->
+    </section>
+    <!-- /About me -->
 
-<!-- Projects -->
-    <section id="projects">
+    <!-- Projects -->
+    <section id="projects" class="section">
         <div class="container title">
-            <h2>Proyectos</h2>
+            <h2>Proyectos relevantes</h2>
         </div>
         <div class="background">
             <div class="container-fluid">
@@ -167,83 +229,9 @@
             </div>
         </div>
     </section>
-<!-- /Projects -->
+    <!-- /Projects -->
 
-<!-- About me -->
-<section id="about">
-    <div class="container title">
-        <h2>Acerca de mí</h2>
-        <div class="container">
-            <p class="texto col-10 offset-1">
-                Estudié ingeniería y computación en el Instituto Polítecnico Nacional, en México.
-                Desde temprana edad me interese por la tecnología y la programación, cuando egresé
-                de la licenciatura decidí dedicarme a emprender proyectos basados en software y
-                modelos de negocio enfocados en digitalización.
-            </p><br>
-            <p class="texto col-10 offset-1">
-                Me apasiona trabajar en proyectos de innovación y formar equipos para desarrollarlos. 
-                Desde hace algunos años también doy clases de programación y ciencia de datos, y creo planes
-                de carrera para personas interesadas en trabajar en la industría tech. Considero que tengo
-                la vocación de transmitir conocimiento y orientar a las personas en su camino profesional.
-            </p><br>
-            <span class="texto col-10 offset-1">
-                Algunas de mis cualidades son:
-            </span>
-            <ul class="cualidades col-8 offset-2">
-                <li><b>Confianza y certeza.</b></li>
-                <p>
-                    Transmito mucha seguridad en mi entorno, mi forma racional, analítica y prudente de ser hace que
-                    la gente alrededor de mí se sienta tranquila y con la certeza de que lo que digo tiene
-                    fundamentos y una razón de ser. Siempre me he destacado por ser muy responsable y darle mucho
-                    valor a mis promesas. Me gusta honrar la frase <i>"Mi palabra vale lo que un contrato".</i>
-                </p>
-                <li><b>Liderazgo empático.</b></li>
-                <p>
-                    Soy muy consciente de que no todos tenemos las mismas habilidades ni las mismas circunstancias. 
-                    Entonces, siempre hago el esfuerzo de entender qué pasa con los demás para intentar comprenderlos 
-                    y guiar mi liderazgo entorno a sus necesidades. Trato de sacar el máximo potencial de cada persona 
-                    para beneficiar al grupo pero siempre cuidando mucho a cada integrante. Mi filosofía es que las 
-                    personas comprendidas y felices aportan mucho más.
-                </p>
-                <li><b>Visión organizacional.</b></li>
-                <p>
-                    Alrededor de los 20 años me di cuenta que tenía talento para los algorítmos y es en gran medida por 
-                    mi capacidad de observación sistémica. Cuando llego a un lugar me resulta inevitable mapear el entorno 
-                    y verlo como "un todo" compuesto por partes que se comunican entre sí. Eso también me hace buena creando 
-                    y entendiendo procesos, y por lo tanto, organizaciones.
-                </p>
-            </ul>
-            <span class="texto col-10 offset-1">
-                Y sobre mis defectos...
-            </span>
-            <ul class="cualidades col-8 offset-2">
-                <li><b>Me cuesta arriesgarme.</b></li>
-                <p>
-                    Constantemente me esfuerzo por minimizar riesgos y me cuesta aventurarme cuando no tengo certezas sobre 
-                    algo. Paradójimente me gustan mucho los negocios, sin embargo, creo que incluso ahí, suelo jugar con un 
-                    perfil de riesgo bajo, lo que en muchas ocasiones me hace dejar ir oportunidades pero valoro mucho más mi 
-                    tranquilidad.
-                </p>
-                <li><b>Hago grupos cerrados.</b></li>
-                <p>
-                    Me gusta trabajar en equipo pero no trabajar con todo el mundo. Suele tener un perfil selecto y algo 
-                    cerrado del tipo de personas con las que me siento cómoda y cuando me toca colaborar con alguien que no se 
-                    apega a ese perfil, me cuesta, no la paso muy bien.
-                </p>
-                <li><b>Soy unitask.</b></li>
-                <p>
-                    Dicen que las mujeres somos naturalmente multi-tasking. Bueno, no es mi caso. Aunque me gusta hacer 
-                    actividades variadas y normalmente no puedo quedarme haciendo la misma cosa por varias horas, no suelo 
-                    hacer más de dos cosas a la vez. Creo que la mayoría de mi <i>RAM</i> se me va en pensar y no me quedan muchas 
-                    energías para más cosas.
-                </p>
-            </ul>
-        </div>
-    </div>
-</section>
-<!-- /About me -->
-
-<!-- Footer -->
+    <!-- Footer -->
     <footer id="footer" class="footer">
         <div class="container">
             <div class="row">
@@ -261,22 +249,25 @@
                     </div>
                     <div class="rrss col-3 offset-1">
                         <div class="row">
-                            <a href="https://www.linkedin.com/in/gabrielamartinx/" target="_blank"><i class="fab fa-linkedin"></i> gabrielamartinx</a>
+                            <a href="https://www.linkedin.com/in/gabrielamartinx/" target="_blank"><i
+                                    class="fab fa-linkedin"></i> gabrielamartinx</a>
                         </div>
                         <div class="row">
-                            <a href="https://twitter.com/Gabbs_Martinx" target="_blank"><i class="fab fa-twitter-square"></i> @Gabbs_Martinx</a>
+                            <a href="https://twitter.com/Gabbs_Martinx" target="_blank"><i
+                                    class="fab fa-twitter-square"></i> @Gabbs_Martinx</a>
                         </div>
                         <div class="row">
-                            <a href="https://github.com/gabrielam-projects" target="_blank"><i class="fab fa-github"></i> gabrielam-projects</a>
+                            <a href="https://github.com/gabrielam-projects" target="_blank"><i
+                                    class="fab fa-github"></i> gabrielam-projects</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </footer>
-<!-- /Footer -->
+    <!-- /Footer -->
 
-<!-- Modal -->
+    <!-- Modal -->
     <!-- <div id="modalProjects" class="modal" tabindex="-1" role="dialog">
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content text-center">
@@ -294,13 +285,13 @@
             </div>
         </div>
     </div> -->
-<!-- /Modal -->
+    <!-- /Modal -->
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZCCKFQB86S"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
+        function gtag() { dataLayer.push(arguments); }
         gtag('js', new Date());
 
         gtag('config', 'G-ZCCKFQB86S');
@@ -309,15 +300,21 @@
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS, Cicle-Progress -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+
     <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-circle-progress/1.2.0/circle-progress.min.js"></script>   
-    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-circle-progress/1.2.0/circle-progress.min.js"></script>
+
     <script src="index.js"></script>
-    
+
 </body>
 
 </html>
