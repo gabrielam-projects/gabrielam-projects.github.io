@@ -57,3 +57,7 @@ $('#contact').on('submit', function(event) {
         alert('Ingresa una dirección de correo.')
     }
 });
+
+// Footer
+let f = new Date();
+document.getElementById("year").innerHTML = `Gabriela Martínez - ${f.getFullYear()}`;
