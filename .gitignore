@@ -4,3 +4,4 @@ Gemfile.lock
 *.gem
 *.jpg
 *.png
+*.DS_Store
