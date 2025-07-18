@@ -30,7 +30,7 @@ body {
     text-align: center;
     margin-top: 40px;
     padding-top: 60px;
-    padding-bottom: 30px;
+    padding-bottom: 10px;
     color: #ED7002;
 }
 
@@ -98,7 +98,7 @@ body {
 }
 
 .box>span {
-    font-size: 3.8vh;
+    font-size: 2.5vh;
     display: block;
     text-align: center;
     height: 10vh;
@@ -402,14 +402,14 @@ h2 {
 
 .projects .separador-seccion {
     margin: 0px auto;
-    margin-top: 110px;
+    margin-top: 90px;
     display: inline-block;
 }
 
 .projects .section-title {
     position: absolute;
     color: white;
-    margin-top: 90px;
+    margin-top: 70px;
     padding-top: 30px;
 }
 
